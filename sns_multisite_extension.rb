@@ -5,7 +5,7 @@ class SnsMultisiteExtension < Radiant::Extension
   
   extension_config do |config|
     config.extension 'sns'
-    config.extension 'multi_site'
+    # config.extension 'sites'
     config.extension 'submenu'
   end
   
